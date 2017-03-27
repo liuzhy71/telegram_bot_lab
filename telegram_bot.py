@@ -1,10 +1,10 @@
-from telegram.ext import Updater,CommandHandler,MessageHandler,Filters;
-from telegram import ChatAction;
-from gtts import gTTS;
+from telegram.ext import Updater,CommandHandler,MessageHandler,Filters
+from telegram import ChatAction
+from gtts import gTTS
 
 def start(bot,update):
     #reply with hello
-    update.message.reply_text('hello');
+    update.message.reply_text('hello')
     #update.message.
 
 def echo(bot,update):
